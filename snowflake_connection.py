@@ -43,7 +43,7 @@ def get_local_session():
             "account": config.get("account"),
             "user": config.get("user"),
             "password": config.get("password"),
-            "role": config.get("role", "FINSERV_DEMO_ADMIN"),
+            "role": config.get("role", "SYSADMIN"),
             "warehouse": config.get("warehouse", "STANDARD_WH_01_XS"),
             "database": config.get("database", "FINSERV_FRAUD_DEMO"),
             "schema": config.get("schema", "FINSERV_MODEL_REGISTRY")
@@ -76,7 +76,7 @@ def get_local_session():
             "account": os.getenv("SNOWFLAKE_ACCOUNT"),
             "user": os.getenv("SNOWFLAKE_USER"),
             "password": os.getenv("SNOWFLAKE_PASSWORD"),
-            "role": os.getenv("SNOWFLAKE_ROLE", "FINSERV_DEMO_ADMIN"),
+            "role": os.getenv("SNOWFLAKE_ROLE", "SYSADMIN"),
             "warehouse": os.getenv("SNOWFLAKE_WAREHOUSE", "STANDARD_WH_01_XS"),
             "database": os.getenv("SNOWFLAKE_DATABASE", "FINSERV_FRAUD_DEMO"),
             "schema": os.getenv("SNOWFLAKE_SCHEMA", "FINSERV_MODEL_REGISTRY")

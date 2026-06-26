@@ -30,7 +30,7 @@ pip install -r requirements.txt
      "account": "your_account.region",
      "user": "your_username",
      "password": "your_password",
-     "role": "FINSERV_DEMO_ADMIN",
+     "role": "SYSADMIN",
      "warehouse": "STANDARD_WH_01_XS",
      "database": "FINSERV_FRAUD_DEMO",
      "schema": "FINSERV_MODEL_REGISTRY"
@@ -42,7 +42,7 @@ Set these environment variables:
 export SNOWFLAKE_ACCOUNT="your_account.region"
 export SNOWFLAKE_USER="your_username"
 export SNOWFLAKE_PASSWORD="your_password"
-export SNOWFLAKE_ROLE="FINSERV_DEMO_ADMIN"
+export SNOWFLAKE_ROLE="SYSADMIN"
 export SNOWFLAKE_WAREHOUSE="STANDARD_WH_01_XS"
 export SNOWFLAKE_DATABASE="FINSERV_FRAUD_DEMO"
 export SNOWFLAKE_SCHEMA="FINSERV_MODEL_REGISTRY"
@@ -67,7 +67,7 @@ export SNOWFLAKE_SCHEMA="FINSERV_MODEL_REGISTRY"
      "account": "your_account.region",
      "user": "your_username",
      "private_key_path": "/path/to/snowflake_key.p8",
-     "role": "FINSERV_DEMO_ADMIN",
+     "role": "SYSADMIN",
      "warehouse": "STANDARD_WH_01_XS",
      "database": "FINSERV_FRAUD_DEMO",
      "schema": "FINSERV_MODEL_REGISTRY"
